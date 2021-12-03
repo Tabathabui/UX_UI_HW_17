@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   height: 200px;
-  background-image: linear-gradient(to left,rgba(255,255,255,0), white))
+  
 }
 .content h1 {
   color: #A6795B;
@@ -74,18 +74,9 @@ img[src="/17-Week/UX_UI_HW_17/Images/Tabathanew.png"] {
 
 img[src="/17-Week/UX_UI_HW_17/Images/RESUME.png"] {
   display: inline;
-  width: 800px;
-
-}
-
-.resume {
-  margin-top: 0px;
-  display: inline;
   width: 600px;
-  align-self: center;
- 
+  
 }
-
 
 .skills {
   display: flex;
@@ -112,6 +103,7 @@ img[src="/17-Week/UX_UI_HW_17/Images/RESUME.png"] {
   align-items: left;
   
 }
+
 
 /* Footer Styles */
 .footer { 
