@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url("Images/gradientback.png");
+  background-image: url("/17-Week/UX_UI_HW_17/Images/gradientback.png");
   background-repeat: repeat;
   background-size: 1200px 800px;
   
