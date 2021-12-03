@@ -114,10 +114,11 @@ img[src="Images/RESUME.png"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  
 
 }
 
@@ -139,6 +140,37 @@ img[src="Images/RESUME.png"] {
 .resumeright { 
   margin-left: 50px;
 }
+.lista {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; 
+  width: 800px;
+}
+
+h3 {
+  font-family: 'Cabin Sketch';
+  text-decoration-line: underline;
+}
+ .projects {
+   margin-left: 40px;
+ }
+
+ .contact {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; 
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+ }
+
+ .projects strong {
+  font-family: 'Cabin Sketch';
+  color: #A6795B;
+ }
+
+ .professional {
+
+
+ }
 
 
 /* Footer Styles */
@@ -213,34 +245,3 @@ color: #e0d5cd;
   width: 150px;
   opacity: .8;
 }
-.lista {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px; 
-  width: 800px;
-}
-
-h3 {
-  font-family: 'Cabin Sketch';
-  text-decoration-line: underline;
-}
- .projects {
-   margin-left: 40px;
- }
-
- .contact {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px; 
-  width: 800px;
-  margin-top: 20px;
-  margin-bottom: 100px;
- }
-
- .projects strong {
-  font-family: 'Cabin Sketch';
-  color: #A6795B;
- }
-
- .professional {
-
-
- }
