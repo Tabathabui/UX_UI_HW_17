@@ -231,7 +231,8 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 15px; 
   width: 800px;
-  margin-top: 50px;;
+  margin-top: 50px;
+  margin-bottom: 200px;
  }
 
  .projects strong {
