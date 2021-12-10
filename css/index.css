@@ -11,6 +11,11 @@
 
 /* Column styles */
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .content {
   padding: 40px;
   display: flex;
@@ -50,8 +55,9 @@
   flex-direction: row;
   justify-content: space-between;
   background-image: url("../Images/gradientback.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: 1200px 800px;
+  
   
 }
 
@@ -144,6 +150,7 @@ img[src="Images/RESUME.png"] {
   font-family: 'Roboto', sans-serif;
   font-size: 15px; 
   width: 800px;
+  display: inline;
 }
 
 h3 {
@@ -167,11 +174,6 @@ h3 {
   color: #A6795B;
  }
 
- .professional {
-
-
- }
-
 
 /* Footer Styles */
 .footer { 
@@ -183,6 +185,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: white;
+  width: 100% !important;
   
 }
 
@@ -244,4 +247,36 @@ color: #e0d5cd;
   border: none;
   width: 150px;
   opacity: .8;
+}
+p{
+  font-size: 15px;
+  
+}
+
+@media only screen and (max-width: 1440px){
+p {
+  color: grey;
+  font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 920px){
+  p {
+      color: dark grey;
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 740px){
+  p {
+      color: black;
+      font-size: 10px;
+   
+  }
+  .heroImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
